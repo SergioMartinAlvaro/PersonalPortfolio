@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My personal portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light transparent-bg">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link white-link" href="#welcome-section">Welcome <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link white-link" href="#who-am-i">Who am I? <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link white-link" href="#projects">Projects <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <main class="h-100">
+            <section id="welcome-section" class="parallax">
+                <div class="container">
+                    <div class="row ">
+                        <div id="welcome-title"
+                            class="d-flex justify-content-center col-lg-6 col-md-6 col-sm-8 flex-grow offset-lg-3 offset-md-3 offset-sm-2 vertical-center">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h1 id="name-text">Sergio Martín</h1><br>
+                                    </div>
+                                    <div class="col-12" id="title-text">
+                                        <h2>Full Stack Developer</h2>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div id="scroll-arrow">
+                            <a href="#who-am-i"><i class="fas fa-chevron-down"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="who-am-i" class="h100 d-inline-block bgimg-1">
+                <div class="container">
+                    <div class="row">
+                        <div id="presentation-title"
+                            class="d-flex justify-content-center col-lg-12 col-md-11 col-sm-12 flex-grow">
+                            <h1>Who am I?</h1>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div id="presentation-image" class="col-md-4 col-lg-3 col-sm-12 offset-md-4 offset-lg-1">
+                                    <img src="https://i.imgur.com/e17hVgm.jpg" alt="my-photo" id="presentation-image-photo" />
+                                </div>
+                                <div id="presentation-text"
+                                    class="d-flex justify-content-center col-lg-7 col-md-12 col-sm-12 col-xs-12 flex-grow">
+                                    <p>I'm a youg Full Stack developer from Madrid, Spain.
+                                        I've started to code in 2015 learning the basics of javascript and PHP,
+                                        with this and my huge curiosity, I went a long way in search of knowledge and personal growth.
+                                        I am also passionate about music and travel, I have several personal projects around these two passions,
+                                        Check them out going to the next section!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="projects" class="h-100 d-inline-block parallax2">
+                <div id="projects-title" class="d-flex justify-content-center col-lg-12 col-md-12 col-sm-12 flex-grow">
+                    <h1>My projects</h1>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="project-tile col-md-3 col-lg-3 col-sm-10 offset-md-1 offset-lg-1 offset-sm-1">
+                            <div class="project-tile-link">
+                                <a href="https://github.com/SergioMartinAlvaro/SkyScanner-API-Test">Flight Browser</a>
+                            </div>
+                            <div class="project-tile-image"></div>
+                        </div>
+                        <div class="project-tile col-md-3 col-lg-3 col-sm-10 offset-md-1 offset-lg-1 offset-sm-1">
+                            <div class="project-tile-link">
+                                <a href="">Spotify App</a>
+                            </div>
+                            <div class="project-tile-image"></div>
+                        </div>
+                        <div class="project-tile col-md-3 col-lg-3 col-sm-10 offset-md-1 offset-lg-1 offset-sm-1">
+                            <div class="project-tile-link">
+                                <a href="">E-commerce store</a>
+                            </div>
+                            <div class="project-tile-image"></div>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/SergioMartinAlvaro" target="_blank" id="profile-link" style="color:transparent">GitHub</a>
+            </section>
+        </main>
+    </div>
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+<!--  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+</body>
+
+</html>

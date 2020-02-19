@@ -12,13 +12,13 @@ function showPresentation(position) {
 }
 
 function handleNavbarColor(position) {
-    if(position > 1180) {
+    if(position > 1030) {
         document.getElementById("navbar").classList.add("navbar-light");
         document.getElementById("navbar").classList.remove("navbar-dark");
         document.getElementById("navbar").classList.remove("solid-bg");
         document.getElementById("navbar").classList.add("transparent-bg");
 
-    } else if(position < 1180 && position > 570) {
+    } else if(position < 1030 && position > 490) {
         document.getElementById("navbar").classList.add("navbar-dark");
         document.getElementById("navbar").classList.remove("navbar-light");
         document.getElementById("navbar").classList.remove("transparent-bg");
